@@ -60,4 +60,5 @@ const Card = (data) => {
   `;
 };
 
+// allows Card to be imported as a module in other files
 export default Card;

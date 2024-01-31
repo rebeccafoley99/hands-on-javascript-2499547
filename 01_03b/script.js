@@ -5,9 +5,10 @@
  * - Output a card for each available image.
  */
 
+// modularisation
 import data from "./data.js";
-import Card from "./components/Card.js";
+import Cardlist from "./components/Cardlist.js";
 
 const mainContent = document.querySelector(".main-content");
 
-mainContent.innerHTML = Card(data);
+mainContent.innerHTML = Cardlist(data);
